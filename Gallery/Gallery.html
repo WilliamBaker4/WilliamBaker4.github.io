@@ -1,15 +1,24 @@
-<style>
-	
-	img{
-		width: 100%;
-	}
-
-</style>
-
-
+<!DOCTYPE html>
 <html>
-	<body style="background-color: black;  margin-left: 70px; margin-right: 70px">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WilliamBaker</title>
+		<link rel="stylesheet" href="../StyleSheet.css"/>
+		<link rel="icon" type="image/x-icon" href="../W Icon.png">
+	</head>
 
+	<nav>
+		<ul class="nav_bar_list">
+			<li class="nav_item"><a href="../index.html">Home</a></li>
+			<li class="nav_item"><a href="#">Gallery</a></li>
+			<li class="nav_item"><a href="#">3D View</a></li>
+			<li class="nav_item"><a href="#">Sketches</a></li>
+		</ul>
+	</nav>
+
+	<body>
+		<div class="content">
 		<img src="header_image.png" style="width: 100%">
 
 		<table style="width: 100%">
@@ -63,7 +72,7 @@
 				<td style="width: 75%">
 					<img id="livingroom" src="Living room.png" style="background-color: grey;">
 				</td>
-				<td>
+				<td style="display:flex; flex-direction: column;">
 					<button type="button" onclick="document.getElementById('livingroom').src ='Living room.png'">Render</button>
 					<button type="button" onclick="document.getElementById('livingroom').src ='Living room Solid.png'">Solid</button>
 					<button type="button" onclick="document.getElementById('livingroom').src ='Living room Wire.png'">Wireframe</button>
@@ -158,5 +167,6 @@
 
 		
 		<img src="Ship In Space.png">
+	</div>
 	</body>
 </html>

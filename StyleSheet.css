@@ -1,0 +1,52 @@
+
+img{
+	width: 100%;
+}
+
+body{
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+nav ul{
+	overflow: hidden;
+	list-style-type: none;
+	background-color: #522258;
+}
+
+
+
+li a{
+	float:left;
+	display: block;
+	font-size: 2em;
+	float: left;
+	color: white;
+	padding:20px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color:#D95F59;
+}
+
+nav {
+/*	position: fixed;*/
+	top: 0;
+	width: 100%;
+}
+
+.content{
+	margin-left: 70px;
+	margin-right: 70px;
+}
