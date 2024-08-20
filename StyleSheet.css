@@ -9,8 +9,16 @@ body{
 
 h1 {
 	color: white;
+	font-size: 1em;
+	text-align: center;
+}
+h1.title{
+	color: white;
 	font-size: 2em;
 	text-align: center;
+	display:block;
+	background-color:#202078;
+	padding:50px;
 }
 
 *{
@@ -47,6 +55,11 @@ nav {
 }
 
 .content{
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+p{
+	color:white;
+	font-size: 1em;
 }
