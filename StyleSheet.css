@@ -1,6 +1,7 @@
 
 img{
 	width: 100%;
+	border-radius:10px;
 }
 
 body{
@@ -63,4 +64,25 @@ p{
 	color:white;
 	font-size: 16pt;
 	padding: 20px;
+}
+
+hr{
+	color:blue;
+}
+
+.glass{
+	border-radius:50px;
+	width:80%;
+
+	margin:auto;
+	color:white;
+	margin-top: 50px;
+	font-size: 2em;
+	backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.027);
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-left:1px solid rgba(255, 255, 255, 0.4);
+	padding: 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
 }
