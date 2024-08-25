@@ -19,6 +19,12 @@
 	gap:5px;
 }
 
+@media(max-width:768px){
+	.photo_gallery{
+		flex-direction:column;
+	}
+}
+
 .photo_gallery_column{
 	background-color:#15154D;
 	display:flex;
