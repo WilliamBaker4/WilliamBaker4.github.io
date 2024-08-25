@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+		<style type="text/css">
+			*{
+				padding:0;
+				margin:0;
+				font-size:0;
+
+			}
+
+			.container{
+				background-color:pink;
+				max-width: 1224px;
+				width:90%;
+				margin:auto;
+				font-size:0;
+				padding:40px 0;
+			}
+
+			.photo_gallery{
+				background-color:red;
+				display:flex;
+			}
+
+			.column{
+				background-color:blue;
+				display:flex;
+				flex-direction:column;
+			}
+			img{
+				width:100%;
+				border-radius: 5px;
+			}
+
+			.photo{
+				background-color:green;
+				width:100%;
+				border-radius: 10px;
+				object-fit: cover;
+			}
+
+			@media screen and (max-width: 600px) {
+				.photo_gallery{
+					flex-direction:column;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="photo_gallery">
+				<div class="column">
+					<div class="photo">
+						<img src="Gallery/Hollow Knight.png">
+					</div>
+					<div class="photo">
+						<img src="Gallery/pew.png">
+					</div>
+					<div class="photo">
+						<img src="Gallery/Doll.png">
+					</div>
+				</div>
+				<div class="Column">
+					<div class="photo">
+						<img src="Gallery/Doll.png">
+					</div>
+					<div class="photo">
+						<img src="Gallery/pew.png">
+					</div>
+					<div class="photo">
+						<img src="Gallery/Hollow Knight.png">
+					</div>
+				</div>
+				<div class="Column">
+					<div class="photo">
+						<img src="Gallery/Hollow Knight.png">
+					</div>
+					<div class="photo">
+						<img src="Gallery/pew.png">
+					</div>
+					<div class="photo">
+						<img src="Gallery/Doll.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
