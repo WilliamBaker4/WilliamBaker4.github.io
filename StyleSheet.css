@@ -8,7 +8,7 @@
 	max-width: 1500px;
 	width:90%;
 	margin:auto;
-	padding:40px 0;
+	padding:40px 5px;
 	font-size:0;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .photo{
-	background-color:dimgrey;
+/*	background-color:dimgrey;*/
 	width:100%;
 	border-radius: 10px;
 	object-fit: cover;
@@ -44,7 +44,7 @@
 
 img{
 	width:100%;
-	border-radius: 5px;
+/*	border-radius: 5px;*/
 	font-size:0;
 }
 img{
