@@ -132,3 +132,16 @@ hr{
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 
 }
+
+.hero_title{
+	float:right;
+	padding:50px;
+	font-size: 10rem;
+}
+.hero_image{
+	height:800px;
+	background-image: url('XYZ.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+/*	background-attachment: fixed;*/
+}
