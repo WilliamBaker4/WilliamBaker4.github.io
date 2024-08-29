@@ -19,11 +19,6 @@
 	gap:5px;
 }
 
-@media(max-width:768px){
-	.photo_gallery{
-		flex-direction:column;
-	}
-}
 
 .photo_gallery_column{
 	background-color:#15154D;
@@ -139,9 +134,28 @@ hr{
 	font-size: 10rem;
 }
 .hero_image{
-	height:800px;
+	height:1080px;
 	background-image: url('XYZ.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
 /*	background-attachment: fixed;*/
+}
+
+@media(max-width:768px){
+	.photo_gallery{
+		flex-direction:column;
+	}
+	.hero_title{
+		float:none;
+		margin:auto;
+		padding:20px;
+		font-size: 5rem;
+	}
+	.hero_image{
+		width:100%;
+		background-image: url('XYZ.png');
+		background-repeat: no-repeat;
+		background-position: bottom;
+	/*	background-attachment: fixed;*/
+	}
 }
