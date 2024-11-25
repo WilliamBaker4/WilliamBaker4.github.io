@@ -59,6 +59,11 @@ h1 {
 	font-size: 1em;
 	text-align: center;
 }
+h2 {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+}
 h1.title{
 	color: white;
 	font-size: 2em;
@@ -67,6 +72,7 @@ h1.title{
 	background-color:#202078;
 	padding:50px;
 }
+
 
 nav ul{
 	overflow: hidden;
@@ -129,9 +135,16 @@ hr{
 }
 
 .hero_title{
-	float:right;
+/*	float:right;*/
+	text-align: right;
 	padding:50px;
 	font-size: 10rem;
+}
+.hero_subtitle{
+/*	float:right;*/
+	text-align: right;
+	padding:50px;
+	font-size: 5rem;
 }
 .hero_image{
 	height:1080px;
@@ -151,11 +164,18 @@ hr{
 		padding:20px;
 		font-size: 5rem;
 	}
+	.hero_subtitle{
+		float:none;
+		margin:auto;
+		padding:20px;
+		font-size: 2rem;
+	}
 	.hero_image{
-		width:100%;
-		background-image: url('XYZ.png');
+/*		height:100%;*/
+		width: 768px;
+		background-image: url('XYZmini.png');
 		background-repeat: no-repeat;
 		background-position: bottom;
-	/*	background-attachment: fixed;*/
-	}
+/*		background-attachment: fixed;*/
+}
 }
