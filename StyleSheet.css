@@ -171,8 +171,7 @@ hr{
 		font-size: 2rem;
 	}
 	.hero_image{
-/*		height:100%;*/
-		width: 768px;
+		height:1080px;
 		background-image: url('XYZmini.png');
 		background-repeat: no-repeat;
 		background-position: bottom;
