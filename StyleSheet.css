@@ -159,7 +159,6 @@ hr{
 		flex-direction:column;
 	}
 	.hero_title{
-		color: blue;
 		float:none;
 		margin:auto;
 		padding:20px;
@@ -172,10 +171,13 @@ hr{
 		font-size: 2rem;
 	}
 	.hero_image{
-		height:1080px;
+/*		background-color:blue;*/
+		height:650px;
+/*		width:500px;*/
+		background-size: 100%;
 		background-image: url('XYZmini.png');
 		background-repeat: no-repeat;
-		background-position: bottom;
+		background-position: top;
 /*		background-attachment: fixed;*/
-}
+	}
 }
