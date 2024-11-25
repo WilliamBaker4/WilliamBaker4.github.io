@@ -159,6 +159,7 @@ hr{
 		flex-direction:column;
 	}
 	.hero_title{
+		color: blue;
 		float:none;
 		margin:auto;
 		padding:20px;
